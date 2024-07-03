@@ -345,7 +345,7 @@
                         x = Math.max(x, pixel.x);
                     }
                     if (!this.viewer.wrapVertical) {
-                        y = Math.min(y, pixel.y - barHeight);
+                        y = Math.min(y - barHeight *2, pixel.y - barHeight);
                     }
                 }
                 return new $.Point(x + this.xOffset, y - this.yOffset);
