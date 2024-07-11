@@ -10,5 +10,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Recontaminated/OpenSeadragonScalebar.git"
+  },
+  "devDependencies": {
+    "@types/openseadragon": "^3.0.10"
   }
 }
